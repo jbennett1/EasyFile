@@ -1,7 +1,7 @@
 /*
 		EasyFile - A small library built upon C++'s fstream for simpler file input, output and control.
-										Copyright © - Jay Bennett 2015
-					Source code publicly available at http://github.com/rekrom12/EasyFile/
+						Copyright © - Jay Bennett 2015
+				Source code publicly available at http://github.com/rekrom12/EasyFile/
 		  Redistribution of this library is NOT permitted without the consent of the library creator.
 */
 
