@@ -15,17 +15,17 @@ the required files for successful compliation when using VC++. Similarly, the Mi
 # How To Use
 1) First of all, download the files from the download page on GitHub *not the source code pages*. The download will be a zip file containing a directory, which contains the two header files.
 
-2a) *For Visual Studio / VC++ Users* Move the folder inside the zip file to *(install location)\VC\include\*. The default location is *C:\Program Files (x86)\Visual Studio\VC\include\*.
+2a) *For Visual Studio / VC++ Users:* Move the folder inside the zip file to *(install location)\VC\include\*. The default location is *C:\Program Files (x86)\Visual Studio\VC\include\*.
 
-2b) *For MinGW / GCC Users* Move the folder inside of the zip file to *(install location)\include*. The default location is *C:\MinGW\include\*
+2b) *For MinGW / GCC Users:* Move the folder inside of the zip file to *(install location)\include*. The default location is *C:\MinGW\include\*
 
-2c) *For other users* Attempt both the VC++ and MinGW versions on your system. Copy the folder inside the zip to your default compiler *include* directory.
+2c) *For other users:* Attempt both the VC++ and MinGW versions on your system. Copy the folder inside the zip to your default compiler *include* directory.
 
 3) In your IDE, at two new includes:
 
-*#include <EasyFile/EasyFile.h>*
+**#include <EasyFile/EasyFile.h>**
 
-*#include <EasyFile/EasyFileExceptions.h>*
+**#include <EasyFile/EasyFileExceptions.h>**
 
 This gives you access to all EasyFile functions.
 
