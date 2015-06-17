@@ -23,7 +23,7 @@ the required files for successful compliation when using VC++. Similarly, the Mi
 
 3) In your IDE, at two new includes:
 
-**#include <EasyFile/EasyFile.h>**
+**#include EasyFile/EasyFile.h**
 
 **#include <EasyFile/EasyFileExceptions.h>**
 
