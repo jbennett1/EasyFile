@@ -23,9 +23,11 @@ the required files for successful compliation when using VC++. Similarly, the Mi
 
 3) In your IDE, at two new includes:
 
-**#include EasyFile/EasyFile.h**
+```c++
+#include <EasyFile/EasyFile.h>
 
-**#include <EasyFile/EasyFileExceptions.h>**
+#include <EasyFile/EasyFileExceptions.h>
+```
 
 This gives you access to all EasyFile functions.
 
