@@ -22,7 +22,6 @@ the required files for successful compliation when using VC++. Similarly, the Mi
 2c) *For other users:* Attempt both the VC++ and MinGW versions on your system. Copy the folder inside the zip to your default compiler *include* directory.
 
 3) In your IDE, add two new includes:
-
 ```c++
 #include <EasyFile/EasyFile.h>
 #include <EasyFile/EasyFileExceptions.h>
