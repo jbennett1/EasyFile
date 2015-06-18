@@ -12,6 +12,12 @@ the required files for successful compliation when using VC++. Similarly, the Mi
 
 4) Other OS support **has not** been tested, *however*, EasyFile doesn't use any specific Windows libraries, therefore it *should* compile. Attempt the MinGW solution should you wish to compile on other systems, as GCC is the norm for most operating systems.
 
+5) EasyFile opens the file using the
+```c++
+fstream::in | fstream::out | fstream::app
+```
+parameters, as these are considered the most useful. It allows input, the editing of non-empty files wihout overwriting them, and writing from the bottom of the file.
+
 # How To Use
 1) First of all, download the files from the download page on GitHub *not the source code pages*. The download will be a zip file containing a directory, which contains the two header files.
 
