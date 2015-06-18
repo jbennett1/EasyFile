@@ -10,7 +10,7 @@ EasyFile is a small, open-source library with the intended use of simplifying fi
 inside of this repo. The VC folder (representing the VC++ / Visual C++ compiler, used in the Visual Studio IDE) contain 
 the required files for successful compliation when using VC++. Similarly, the MinGW folder (representing the MinGW / Windows GCC compiler, used in a lot of IDEs) contains the exact same files, with added includes and/or functions for successful compliation when using MinGW.
 
-4) Other OS support **has not** been tested, *however*, because EasyFile doesn't use any specific Windows libraries, therefore it *should* compile. Attempt the MinGW solution should you wish to compile on other systems, as GCC is the norm for most operating systems.
+4) Other OS support **has not** been tested, *however*, EasyFile doesn't use any specific Windows libraries, therefore it *should* compile. Attempt the MinGW solution should you wish to compile on other systems, as GCC is the norm for most operating systems.
 
 # How To Use
 1) First of all, download the files from the download page on GitHub *not the source code pages*. The download will be a zip file containing a directory, which contains the two header files.
@@ -28,6 +28,14 @@ the required files for successful compliation when using VC++. Similarly, the Mi
 ```
 This gives you access to all EasyFile functions.
 
-4) That's it! Amazing!
+4) Begin the object declaration, by:
+```c++
+File file;
+```
+5) From there, use as you would any C++ class;
+```c++
+file.readLine(1); //readLine() function used as example
+```
+6) That's it! Amazing!
 
 # Function Documentation
