@@ -46,12 +46,12 @@ file.readLine(1); //readLine() function used as example
 
 # Function Documentation
 ```c++
-File();
+File()
 File file; //Example
 ``` 
 Default constructor, open() function must be called after to avoid a FileNullException().
 ```c++
-File(string filename);
+File(string filename)
 File file = "myfile.txt"; //Example
 File file("myfile.txt"); //Example
 ``` 
