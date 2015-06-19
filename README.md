@@ -46,74 +46,93 @@ file.readLine(1); //readLine() function used as example
 
 # Function Documentation
 ```c++
-File() 
+File()
+File file; //Example
 ``` 
 Default constructor, open() function must be called after to avoid a FileNullException().
 ```c++
 File(string filename)
+File file = "myfile.txt"; //Example
+File file("myfile.txt"); //Example
 ``` 
 Constructor, automatically calls open().
 ```c++
 void open(string filename)
+file.open("myfile.txt"); //Example
 ``` 
-Open the file with the specified filename.
+Opens the file with the specified filename.
 ```c++
 void close()
+file.close(); //Example
 ``` 
-Close the current file.
+Closes the current file.
 ```c++
 void reload()
+file.reload(); //Example
 ``` 
-Reloads the file.
+Reloads the current file.
 ```c++
 void writeToFile(string toWrite)
+file.writeToFile("Hi\nthere!"); //Example
 ``` 
 Write the specified string to the current file.
 ```c++
 void clear()
+file.clear(); //Example
 ``` 
 Clear the current file.
 ```c++
 string readEntireFile()
+string s = file.readEntireFile(); //Example
 ``` 
 Reads the entire file and returns it as a string.
 ```c++
 string readLine(int linenum)
+string s = file.readLine(1); //Example
 ``` 
 Reads the specified line and returns it as a string.
 ```c++
 string readLineRange(int from, int to)
+string s = file.readLineRange(1, 4); //Example
 ``` 
 Reads all the lines in the specified range, and returns them as strings.
 ```c++
 int getLineAmount()
+int x = file.getLineAmount(); //Example
 ``` 
 Returns the amount of lines in the file.
 ```c++
 string findLine(string s)
+string s = file.findLine("first"); //Example
 ``` 
 Return the line that the first occurrence of the specified string is on.
 ```c++
 int findLineNumber(string s)
+int x = file.findLineNumber("first"); //Example
 ``` 
 Return the line *number* that the first occurrence of the specified string is on.
 ```c++
 string findAllOccurrences(string s)
+string s = file.findAllOccurrences("first"); //Example
 ``` 
 Return the contents of every line the specified string is located.
 ```c++
 string findAllOccurrencesLineNum(string s)
+string lineNums = file.findAllOccurrencesLineNum("first"); //Example
 ``` 
 Return the line numbers of every line the specified string is located.
 ```c++
 fstream* getNative()
+fstream* fs = file.getNative(); //Example
 ``` 
 Return the native fstream pointer that the EasyFile object is currently using.
 ```c++
 int getAmountOfCharacters()
+int x = file.getAmountOfCharacters(); //Example
 ``` 
 Return the amount of characters in the current file.
 ```c++
 int getAmountOfCharactersOnLine(int linenum)
+int x = file.getAmountOfCharactersOnLine(1); //Example
 ``` 
 Return the amount of characters on the specified line.
